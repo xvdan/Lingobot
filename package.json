@@ -1,0 +1,15 @@
+{
+  "name": "atassa-second-bot",
+  "version": "1.0.0",
+  "description": "Second Repo - Brain WhatsApp Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "gifted-baileys": "^2.0.6",
+    "dotenv": "*",
+    "fs-extra": "^11.1.0"
+  }
+}

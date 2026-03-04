@@ -1,0 +1,10 @@
+atassa-second-bot/
+├─ index.js
+├─ config.js
+├─ commands/
+│    ├─ ping.js
+│    └─ echo.js
+├─ package.json
+├─ app.json
+├─ Procfile
+└─ .env

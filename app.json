@@ -1,0 +1,16 @@
+{
+  "name": "atassa-second-bot",
+  "version": "1.0.0",
+  "description": "Second Repo - Brain WhatsApp Bot",
+  "env": {
+    "SESSION_ID": { "description": "Your session ID here", "required": true },
+    "MODE": { "description": "public or private", "required": true, "value": "public" },
+    "TIME_ZONE": { "description": "Your time zone", "required": true, "value": "Africa/Nairobi" },
+    "AUTO_LIKE_STATUS": { "description": "Auto like statuses", "required": false, "value": "true" },
+    "AUTO_READ_STATUS": { "description": "Auto read statuses", "required": false, "value": "true" },
+    "DATABASE_URL": { "description": "Database URL", "required": false }
+  },
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ]
+}
